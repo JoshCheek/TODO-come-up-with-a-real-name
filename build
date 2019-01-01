@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")"
+ruby \
+  -r ./mah_shits_valid_yo.rb \
+  -S gem build TODO-come-up-with-a-real-name.gemspec
